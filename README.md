@@ -1,8 +1,8 @@
 # RigidFlow++ 
-This is the PyTorch code for [Self-Supervised 3D Scene Flow Estimation and Motion Prediction using Local Rigidity Prior (T-PAMI 2024)](https://www.computer.org/csdl/journal/tp/5555/01/10530455/1WWdXdJBbTW). In this repository, we apply RigidFlow++ to 3D self-supervised scene flow estimation. The code is created by Ruibo Li (ruibo001@e.ntu.edu.sg).
+This is the PyTorch code for [Self-Supervised 3D Scene Flow Estimation and Motion Prediction using Local Rigidity Prior (T-PAMI 2024)](https://www.computer.org/csdl/journal/tp/5555/01/10530455/1WWdXdJBbTW). In this repository, we apply RigidFlow++ to  self-supervised 3D scene flow estimation. The code is created by Ruibo Li (ruibo001@e.ntu.edu.sg).
 
 
-## Prerequisities
+## Prerequisites
 - Python 3.7.16, NVIDIA GPU + CUDA CuDNN, PyTorch (torch == 1.9.0),
 
 - tqdm, sklearn, pptk, yaml, numba, thop
@@ -17,14 +17,14 @@ pip install torch==1.9.0+cu111 -f https://download.pytorch.org/whl/torch_stable.
 pip install tqdm pptk PyYAML numba thop
 ```
 
-Compile the furthest point sampling, grouping and gathering operation for PyTorch. We use the operation from this [repo](https://github.com/sshaoshuai/Pointnet2.PyTorch).
+Compile the furthest point sampling, grouping, and gathering operation for PyTorch. We use the operation from this [repo](https://github.com/sshaoshuai/Pointnet2.PyTorch).
 ```bash
 cd lib
 python setup.py install
 cd ../
 ```
 
-Install & complie supervoxel segmentation method: 
+Install & compile supervoxel segmentation method: 
 ```bash
 cd Supervoxel_utils
 g++ -std=c++11 -fPIC -shared -o main.so main.cc
@@ -37,7 +37,7 @@ By default, the datasets are stored in `SAVE_PATH`.
 ### FlyingThings3D
 1. FlyingThings3D data provided by [HPLFlowNet](https://github.com/laoreja/HPLFlowNet)
 
-    Download and unzip the "Disparity", "Disparity Occlusions", "Disparity change", "Optical flow", "Flow Occlusions" for DispNet/FlowNet2.0 dataset subsets from the [FlyingThings3D website](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html) (we used the paths from [this file](https://lmb.informatik.uni-freiburg.de/data/FlyingThings3D_subset/FlyingThings3D_subset_all_download_paths.txt), now they added torrent downloads). They will be upzipped into the same directory, `RAW_DATA_PATH`. Then run the following script for 3D reconstruction:
+    Download and unzip the "Disparity", "Disparity Occlusions", "Disparity change", "Optical flow", "Flow Occlusions" for DispNet/FlowNet2.0 dataset subsets from the [FlyingThings3D website](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html) (we used the paths from [this file](https://lmb.informatik.uni-freiburg.de/data/FlyingThings3D_subset/FlyingThings3D_subset_all_download_paths.txt), now they added torrent downloads). They will be unzipped into the same directory, `RAW_DATA_PATH`. Then run the following script for 3D reconstruction:
 
     ```bash
     python data_preprocess/process_flyingthings3d_subset.py --raw_data_path RAW_DATA_PATH --save_path SAVE_PATH/FlyingThings3D_subset_processed_35m --only_save_near_pts
