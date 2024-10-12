@@ -1,0 +1,40 @@
+gpu: "1"
+multi_gpu: null
+
+model_name: PointConv
+
+full: True
+
+arch: PointConv
+last_relu: False
+allow_less_points: False
+
+pretrain: ../pretrained/model_ft3d_s.pth
+
+dim: 3
+num_points: 8192
+batch_size: 1
+
+DEVICE: cuda
+
+evaluate: True
+resume: True
+
+dataset: KITTI #FlyingThings3DSubset #KITTI
+data_root: /path_to/
+
+data_process:
+  DEPTH_THRESHOLD: 35.
+  NO_CORR: True
+
+
+# miscalleneous
+workers: 1
+
+
+
+
+
+
+
+

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="ruibo@10.87.192.41:22">
+    <serverData>
+      <paths name="liruibo@10.88.72.253:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-BiF/RigidFlowPP-list/PP-BiF-v300" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@10.88.73.180:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-Bi/RB1-list/RB1-v002" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@10.88.74.85:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-BiF/RigidFlowPP-list/PP-BiF-v300" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@10.88.78.74:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-BiF/RBiF0-list/RBiF0-v100" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@10.89.18.176:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-BiF/RigidFlowPP-list/PP-BiF-v012" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@10.89.23.127:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Reg-Occ/BiFlow-list/BiFlow-v2" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@10.96.179.134:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-BiF/RigidFlowPP-list/PP-BiF-v300" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@10.96.183.180:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-BiF/FLOT-list/FLOT-v300" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@10.96.72.239:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-BiF/RigidFlowPP-list/PP-BiF-v011" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@10.96.72.65:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-BiF/RigidFlowPP-list/PP-BiF-v300" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@10.97.24.95:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-Bi/RB3-list/RB3-v152" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@10.97.25.132:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-BiF/FLOT-list/FLOT-v014" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@155.69.145.141:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-Bi/RB4-list/RB4-v110" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@155.69.149.170:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/BiFlow-list/BiFlow-v1" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@155.69.150.7:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-Bi/RB2-list/RB2-v001" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@172.21.100.34:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-Bi/RB3-list/RB3-v123" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="liruibo@172.21.100.56:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/liruibo/Rigid-Bi/RB3-list/RB3-v151" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ruibo@10.87.192.41:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/ruibo/Documents/A-Task/A-RigidFlowPP/Release/RigidPP-Release-list/RigidPP-v3" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

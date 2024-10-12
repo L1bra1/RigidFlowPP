@@ -1,0 +1,46 @@
+gpu: "0"
+multi_gpu:  null #"0,1"
+
+model_name: BiFlow
+
+full: True
+
+arch: PointConv
+last_relu: False
+allow_less_points: False
+
+# general args
+seed: 1
+use_flip: True
+epoch_confidence: 10
+num_supervoxels: 30
+flow_thr: 0.2
+pos_thr: 0.1
+
+batch_size: 8
+epochs: 560
+learning_rate: 0.001
+
+optimizer: Adam
+pretrain: null
+weight_decay: 0.0001
+
+dim: 3
+num_points: 8192
+
+DEVICE: cuda
+
+evaluate: False
+
+dataset: FlyingThings3D_OCC
+data_root: /path_to/
+
+# miscalleneous
+workers: 1
+
+
+
+
+
+
+
