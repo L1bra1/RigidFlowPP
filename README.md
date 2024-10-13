@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # RigidFlow++
-=======
-# RigidFlow++ 
->>>>>>> 53d4d27d69e499b84721b26f0d943ae909de3767
 This is the PyTorch code for [Self-Supervised 3D Scene Flow Estimation and Motion Prediction using Local Rigidity Prior (T-PAMI 2024)](https://www.computer.org/csdl/journal/tp/5555/01/10530455/1WWdXdJBbTW). In this repository, we apply RigidFlow++ to  self-supervised 3D scene flow estimation. The code is created by Ruibo Li (ruibo001@e.ntu.edu.sg).
 
 
@@ -31,7 +27,7 @@ cd ../
 <<<<<<< HEAD
 Install & compile supervoxel segmentation method:
 =======
-Install & compile supervoxel segmentation method: 
+Install & compile supervoxel segmentation method:
 >>>>>>> 53d4d27d69e499b84721b26f0d943ae909de3767
 ```bash
 cd Supervoxel_utils
