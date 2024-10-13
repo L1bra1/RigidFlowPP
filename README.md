@@ -24,11 +24,8 @@ python setup.py install
 cd ../
 ```
 
-<<<<<<< HEAD
+
 Install & compile supervoxel segmentation method:
-=======
-Install & compile supervoxel segmentation method:
->>>>>>> 53d4d27d69e499b84721b26f0d943ae909de3767
 ```bash
 cd Supervoxel_utils
 g++ -std=c++11 -fPIC -shared -o main.so main.cc
