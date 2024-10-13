@@ -1,6 +1,5 @@
 # RigidFlow++
-This is the PyTorch code for [Self-Supervised 3D Scene Flow Estimation and Motion Prediction using Local Rigidity Prior (T-PAMI 2024)](https://www.computer.org/csdl/journal/tp/5555/01/10530455/1WWdXdJBbTW). In this repository, we apply RigidFlow++ to  self-supervised 3D scene flow estimation. The code is created by Ruibo Li (ruibo001@e.ntu.edu.sg).
-
+This is the PyTorch code for [Self-Supervised 3D Scene Flow Estimation and Motion Prediction using Local Rigidity Prior (T-PAMI 2024)](https://www.computer.org/csdl/journal/tp/5555/01/10530455/1WWdXdJBbTW). In this repository, we apply RigidFlow++ to  self-supervised 3D scene flow estimation. For the codes in self-supervised motion prediction, please refer to [RigidFlowPP-Motion](https://github.com/L1bra1/RigidFlowPP-Motion). The code is created by Ruibo Li (ruibo001@e.ntu.edu.sg).
 
 ## Prerequisites
 - Python 3.7.16, NVIDIA GPU + CUDA CuDNN, PyTorch (torch == 1.9.0),
@@ -91,6 +90,7 @@ SAVE_PATH
 Set `data_root` in each configuration file to `SAVE_PATH` in the data preprocess section.
 
 ### Trained models
+We adopt [Bi-PointFlowNet](https://github.com/cwc1260/BiFlow) as the scene ﬂow estimation model.
 Our trained models can be downloaded from [Model trained on FT3D<sub>s</sub>](https://drive.google.com/file/d/17SQrZmqgCn0lsu2aFNOsiQtuL4btukW1/view?usp=drive_link), [Model trained on FT3D<sub>o</sub>](https://drive.google.com/file/d/1x8yhsm0YB017IpOfaDXXDVMGwUDR0mjk/view?usp=drive_link), and [Model trained on KITTI<sub>r</sub>](https://drive.google.com/file/d/1iYOLG-0Gs0q0MfirFB2o0eUc7kKmB1dq/view?usp=drive_link).
 
 
@@ -159,5 +159,5 @@ If you find this code useful, please cite our paper:
 
 ## Acknowledgement
 
-Our code is based on [RigidFlow](https://github.com/L1bra1/RigidFlow/), [HPLFlowNet](https://github.com/laoreja/HPLFlowNet), [FlowNet3D](https://github.com/xingyul/flownet3d), [PointPWC](https://github.com/DylanWusee/PointPWC), [Bi-PointFlowNet](https://github.com/valeoai/FLOT), and [flownet3d_pytorch](https://github.com/hyangwinter/flownet3d_pytorch).
+Our code is based on [RigidFlow](https://github.com/L1bra1/RigidFlow/), [HPLFlowNet](https://github.com/laoreja/HPLFlowNet), [FlowNet3D](https://github.com/xingyul/flownet3d), [PointPWC](https://github.com/DylanWusee/PointPWC), [Bi-PointFlowNet](https://github.com/cwc1260/BiFlow), and [flownet3d_pytorch](https://github.com/hyangwinter/flownet3d_pytorch).
 The supervoxel segmentation method is based on [Supervoxel-for-3D-point-clouds](https://github.com/yblin/Supervoxel-for-3D-point-clouds).
