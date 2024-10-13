@@ -1,5 +1,8 @@
 # RigidFlow++
-This is the PyTorch code for [Self-Supervised 3D Scene Flow Estimation and Motion Prediction using Local Rigidity Prior (T-PAMI 2024)](https://www.computer.org/csdl/journal/tp/5555/01/10530455/1WWdXdJBbTW). In this repository, we apply RigidFlow++ to  self-supervised 3D scene flow estimation. For the codes in self-supervised motion prediction, please refer to [RigidFlowPP-Motion](https://github.com/L1bra1/RigidFlowPP-Motion). The code is created by Ruibo Li (ruibo001@e.ntu.edu.sg).
+This is the PyTorch code for [Self-Supervised 3D Scene Flow Estimation and Motion Prediction using Local Rigidity Prior (T-PAMI 2024)](https://www.computer.org/csdl/journal/tp/5555/01/10530455/1WWdXdJBbTW). 
+You can also check out the arXiv version at  [RigidFlowPP-arXiv](https://arxiv.org/abs/2310.11284).
+
+In this repository, we apply RigidFlow++ to  self-supervised 3D scene flow estimation. For the codes in self-supervised motion prediction, please refer to [RigidFlowPP-Motion](https://github.com/L1bra1/RigidFlowPP-Motion). The code is created by Ruibo Li (ruibo001@e.ntu.edu.sg).
 
 ## Prerequisites
 - Python 3.7.16, NVIDIA GPU + CUDA CuDNN, PyTorch (torch == 1.9.0),
